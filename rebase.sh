@@ -8,5 +8,6 @@ count=1
 
 for param in "$@"; do
 
+
 	    echo "\$@ Parameter #$count = $param"
 
