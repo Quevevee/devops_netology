@@ -26,7 +26,7 @@ cat /etc/systemd/system/node_exporter.service
 **# systemctl status node_exporter**  
 ● node_exporter.service - Node Exporter  
      `Loaded: loaded (/etc/systemd/system/node_exporter.service; enabled; vendor preset: enabled)`    
-     `Active: active (running) since Sun 2021-06-06 11:35:48 UTC; 2min 10s ago`    
+     `Active: active (running) since Thu 2023-02-16 15:34:18 UTC; 2min 47s ago`    
      `Main PID: 7153 (node_exporter)`    
        `Tasks: 6 (limit: 1122)`   
       `Memory: 10.8M`    
@@ -83,9 +83,9 @@ ulimit -Sn <лимит> - мягкий лимит
 `# nsenter --target 3462 --pid --mount`  
 `# ps aux`   
 USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND    
-root         **1**  0.0  0.0   7404   772 pts/0    S+   13:26   0:00 **sleep 1h**  
-root           2  0.5  0.5  10468  5232 pts/1    S    13:26   0:00 -bash    
-root          13  0.0  0.3  11728  3460 pts/1    R+   13:26   0:00 ps aux    
+root         **1**  0.0  0.0   7404   772 pts/0    S+   16:14   0:00 **sleep 1h**  
+root           2  0.5  0.5  10468  5232 pts/1    S    16:14   0:00 -bash    
+root          13  0.0  0.3  11728  3460 pts/1    R+   16:14   0:00 ps aux    
 
 
 ## 7. Найдите информацию о том, что такое :(){ :|:& };:. Запустите эту команду в своей виртуальной машине Vagrant с Ubuntu 20.04 (это важно, поведение в других ОС не проверялось). Некоторое время все будет "плохо", после чего (минуты) – ОС должна стабилизироваться. Вызов dmesg расскажет, какой механизм помог автоматической стабилизации. Как настроен этот механизм по-умолчанию, и как изменить число процессов, которое можно создать в сессии?  
