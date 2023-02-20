@@ -261,3 +261,5 @@ $ dig -x 8.8.8.8
 ;; WHEN: Mon Feb 20 12:46:30 EST 2023
 ;; MSG SIZE  rcvd: 73
 ```
+
+К IP привязан dns.google.
