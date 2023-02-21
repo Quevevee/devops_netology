@@ -115,7 +115,7 @@ Linux:
 
 Windows:  
 
-проверить ARP таблицу: `ё`arp -a`ё`  
+проверить ARP таблицу: `arp -a`  
 очитстить ARP кеш: `netsh interface ip delete arpcache`   
 удалить один IP: `arp -d <ip-адрес>`  
 
