@@ -205,7 +205,6 @@ $ sudo ip route add to 10.10.0.0/16 via 10.0.10.1
 $ sudo ip route add to 10.12.0.0/16 via 10.0.10.1
 $ ip route
 default via 192.168.145.2 dev eth0 proto dhcp metric 100 
-192.168.145.0/24 dev eth0 proto kernel scope link src 192.168.145.128 metric 100 
 10.0.10.0/24 dev dummy0 proto kernel scope link src 10.0.10.1 
 10.10.0.0/16 via 10.0.10.1 dev dummy0 
 10.12.0.0/16 via 10.0.10.1 dev dummy0 
